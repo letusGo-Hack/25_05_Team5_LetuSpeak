@@ -166,7 +166,7 @@ struct SentenceArrangeView: View {
             Text("중급과 고급 단계는 프리미엄 구독이 필요합니다.\n더 복잡한 문장으로 실력을 향상시켜보세요!")
         }
         .sheet(isPresented: $showPayment) {
-            RevenueCatView()
+            PaywallView()
         }
     }
 }
