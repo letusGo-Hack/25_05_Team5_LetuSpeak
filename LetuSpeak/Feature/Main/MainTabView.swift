@@ -16,7 +16,7 @@ struct MainTabView: View {
             // 메인 탭
             CharacterView()
                 .tabItem {
-                    Image(systemName: "house.fill")
+                    Image("Tab_Home")
                     Text("메인")
                 }
                 .tag(0)
@@ -24,7 +24,7 @@ struct MainTabView: View {
             // 단어 퀴즈 탭
             WordQuizView()
                 .tabItem {
-                    Image(systemName: "questionmark.circle.fill")
+                    Image("Tab_Question")
                     Text("단어 퀴즈")
                 }
                 .tag(1)
@@ -32,7 +32,7 @@ struct MainTabView: View {
             // 문장 배열 탭
             SentenceArrangeView()
                 .tabItem {
-                    Image(systemName: "text.line.first.and.arrowtriangle.forward")
+                    Image("Tab_Sentence")
                     Text("문장 배열")
                 }
                 .tag(2)
@@ -40,12 +40,12 @@ struct MainTabView: View {
             // 발음 교정 탭
             SpeakView()
                 .tabItem {
-                    Image(systemName: "mic.fill")
+                    Image("Tab_Mic")
                     Text("발음 교정")
                 }
                 .tag(3)
         }
-        .accentColor(.blue)
+        .accentColor(.black)
     }
 }
 
