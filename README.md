@@ -71,8 +71,10 @@ LetuSpeak/
 <br>
 
 ### ▶️ 실행 방법
-#### Xcode 16 이상 설치
-#### Repository 클론
+#### 1. Xcode 26 이상 설치
+#### 2. Repository 클론
+```
 git clone https://github.com/letusGo-Hack/25_05_Team5_LetuSpeak.git
-#### 프로젝트 열기
-#### 시뮬레이터 또는 실기기에서 실행
+```
+#### 3. 프로젝트 열기
+#### 4. 시뮬레이터 또는 실기기에서 실행
